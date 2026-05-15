@@ -1,16 +1,153 @@
-# React + Vite
+# 🧠 ELI5 Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that simplifies complex topics into easy-to-understand explanations based on the user's selected complexity level.
 
-Currently, two official plugins are available:
+Users can enter any topic and adjust a slider to receive explanations ranging from “Explain Like I’m Five” to advanced technical depth.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://eli-5-kappa.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🎯 Explain complex topics in simple language
+- 🎚️ Adjustable complexity slider
+- 🤖 AI-generated responses using Gemini API
+- ⚡ Fast and responsive UI
+- 📱 Fully responsive design
+- 🌙 Modern clean interface
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Vite
+
+### AI Integration
+- Gemini API
+
+### Deployment
+- Vercel
+
+---
+
+## 📸 Preview
+
+<img width="1200" alt="ELI5 Engine Preview" src="https://eli-5-kappa.vercel.app/preview.png">
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/eli5-engine.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd eli5-engine
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## 🧩 How It Works
+
+1. User enters a topic
+2. User selects explanation complexity using the slider
+3. The app sends a prompt to the Gemini API
+4. AI generates a customized explanation
+5. Response is displayed dynamically on screen
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── styles/
+```
+
+---
+
+## 💡 Example Use Cases
+
+- Learning difficult concepts quickly
+- Educational assistance
+- AI-powered study tool
+- Simplifying technical topics
+- Interactive learning experiences
+
+---
+
+## 🔮 Future Improvements
+
+- 🎤 Voice input support
+- 🔊 Text-to-speech explanations
+- 📚 Explanation history
+- 🌐 Multi-language support
+- 🧠 AI learning modes
+- 📥 Export explanations
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Feel free to fork the project, open issues, and submit pull requests.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+Khushi Bhatia
+
+- GitHub: https://github.com/okay-khushi
+- LinkedIn: https://www.linkedin.com/in/kb05/
+
+---
+
+⭐ If you liked this project, consider giving it a star!
